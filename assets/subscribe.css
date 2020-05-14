@@ -1,0 +1,33 @@
+.subscribeMe  {
+    display: flex;
+    justify-content: center;
+ }
+ .form-control {
+     margin-bottom: 10px;
+     padding-bottom: 20px;
+     position: relative;
+ }
+ .form-control i {
+     position: absolute;
+     z-index: 999;
+     font-size: 20px;
+     top: 11px;
+     left: 14px;
+     color: white;
+ }
+ .form-control input {
+     position: relative;
+     border: 2px solid #f0f0f0;
+     display: block;
+     font-family: inherit;
+     font-size: 16px;
+     padding: 10px;
+     display: flex;
+     text-align: center;
+     font-weight: 700;
+     border-radius: 40px;
+     background-color: gold;
+     color: white;
+     width: 100%;
+     outline: none;
+ }

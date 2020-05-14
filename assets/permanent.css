@@ -1,0 +1,32 @@
+.navigation{
+    background-color: pink;
+    overflow: hidden;
+    display: flex;
+    justify-content: center
+ }
+ .navigation a { 
+     padding: 20px 40px;
+     float: left;
+     display: block;
+     color: aliceblue;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23px;
+   }
+   .navigation a:hover{
+       background-color: palegoldenrod;
+   }
+   .active{
+       background-color:palegoldenrod;
+   }
+   .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    height: 150px;
+}
+.footerCnt h3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 4px;
+}
